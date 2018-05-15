@@ -21,7 +21,7 @@ public class Main {
         int x = 1;
 
         while (x != 0) {
-            System.out.println("Podaj numer zadania(1,2,3)");
+            System.out.println("Podaj numer zadania(1,2,3,4)");
             
             Scanner odczyt = new Scanner(System.in); //obiekt do odebrania danych od użytkownika
             x = odczyt.nextInt();
@@ -35,6 +35,9 @@ public class Main {
                     break;
                 case 3:
                     Zad3.zad3();
+                    break;
+                case 4:
+                    Zad4.zad4();
                     break;
             }
         }
